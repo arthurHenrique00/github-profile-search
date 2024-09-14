@@ -24,8 +24,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -52,6 +50,26 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+header {
+  background-color: #3d3d3d;
+  padding: 35px;
+  text-align: center;
+}
+
+label {
+  color: #fff;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.searchUsu {
+  height: 20px;
+
+  &:hover {
+    border-color: rgb(102, 102, 253);
+  }
 }
 
 @media (prefers-color-scheme: light) {

@@ -10,11 +10,15 @@
 .avatar {
     width: 160px;
     height: 160px;
-    border-radius: 50;
+    border-radius: 50%;
     border: 2px solid var(--Colortwo);
 }
 
 .name {
     font-size: 18px;
     color: var(--Colortwo);
+    margin-top: 22px;
+    background-color: #fff;
+    border-radius: 9px;
+    padding: 4px 15px;
 }

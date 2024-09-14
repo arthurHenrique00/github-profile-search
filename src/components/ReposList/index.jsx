@@ -15,20 +15,20 @@ const ReposList = ({ nomeUsuario }) => {
 
     return (
         <div className="container">
-            <ul className={styles.list}>
-            {repos.map(repositorio => (
-                <li className={styles.listItem} key={repositorio.id}>
-                    <div className={styles.itemName}>
-                        <b className={styles.itemName}>Nome: </b> {repositorio.name} <br />
-                    </div>
-                    <div className={styles.itemLanguage}>
-                        <b className={styles.itemLanguage} >Linguagem: </b> {repositorio.language} <br />
-                    </div>
-                    <a className={styles.itemLink} target="_blank" href={repositorio.html_url}>Visitar no GitHub</a>
-                </li>
-            ))}
-            <li>Repositório</li>
-        </ul>
+                <ul className={styles.list}>
+                {repos.map(repositorio => (
+                    <li className={styles.listItem} key={repositorio.id}>
+                        <div className={styles.itemName}>
+                            <b className={styles.itemName}>Nome: </b> {repositorio.name} <br />
+                        </div>
+                        <div className={styles.itemLanguage}>
+                            <b className={styles.itemLanguage} >Linguagem: </b> {repositorio.language} <br />
+                        </div>
+                        <a className={styles.itemLink} target="_blank" href={repositorio.html_url}>Visitar no GitHub</a>
+                    </li>
+                ))}
+                <li>Repositório</li>
+            </ul>
         </div>
     )
 }

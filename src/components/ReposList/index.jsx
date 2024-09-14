@@ -27,7 +27,6 @@ const ReposList = ({ nomeUsuario }) => {
                         <a className={styles.itemLink} target="_blank" href={repositorio.html_url}>Visitar no GitHub</a>
                     </li>
                 ))}
-                <li>Repositório</li>
             </ul>
         </div>
     )

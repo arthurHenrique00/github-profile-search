@@ -15,11 +15,16 @@
 }
 
 .name {
-    font-size: 18px;
-    color: #fff;
+    font-size: 16px;
+    color: #8a8888;
     margin-top: 22px;
-    background-color: #365a91;
-    border-radius: 9px;
-    padding: 4px 15px;
+    background-color: #fff;
+    border: 2px solid var(--Colortwo);
+    border-radius: 12px;
+    padding: 2px 12px;
     cursor: pointer;
+
+    &:hover {
+        background-color: #e7e7e7;
+    }
 }

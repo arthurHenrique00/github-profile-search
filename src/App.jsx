@@ -7,7 +7,7 @@ function App() {
 
   return(
     <>
-    <header>
+    <header className="headerTwo">
       <label htmlFor="usuarioID">Digite o usuário que eseja ver o perfil no GitHub: </label>
     <input className="searchUsu" id="usuarioID" type="text" onBlur={(e) => setNomeUsuario(e.target.value)} />
     </header>

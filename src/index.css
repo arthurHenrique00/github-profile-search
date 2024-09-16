@@ -68,6 +68,7 @@ label {
 
 .searchUsu {
   height: 20px;
+  border-radius: 6px;
 
   &:hover {
     border-color: rgb(102, 102, 253);
@@ -78,7 +79,7 @@ label {
   :root {
     color: #213547;
     background-color: #ffffff;
-  }
+  }  
   a:hover {
     color: #747bff;
   }
